@@ -10,12 +10,12 @@ Usage:
 ```
 Install
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/chimvian/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
 
 ```    
 Unstall    
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh unstall
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/chimvian/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh unstall
 
 ```  
 ----------------------------- 
@@ -24,12 +24,12 @@ wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVice
 -----------------------------
 具体用哪个加速模块检索这个文件,选择最合适的.         
 ```
-https://github.com/0oVicero0/serverSpeeder_kernel/blob/master/serverSpeeder.txt
+https://github.com/chimvian/serverSpeeder_kernel/blob/master/serverSpeeder.txt
 ```
 改加速模块文件名字.       
 下载链接如下(变量$1,$2,$3,$4,$5,$6)   
 ```
-https://raw.githubusercontent.com/0oVicero0/serverSpeeder_kernel/master/$1/$2/$3/$4/$5/$6
+https://raw.githubusercontent.com/chimvian/serverSpeeder_kernel/master/$1/$2/$3/$4/$5/$6
 ```
 下载后的加速模块文件名改成这样  ```acce-$5-[$1_$2_$3]```         
 如果不改名字,可能会触发某个BUG(Debian下会触发,别的系统没用过,不清楚.)        
@@ -46,15 +46,15 @@ wget -O apx.lic http://serverspeeder.azurewebsites.net/lic?mac=$(ifconfig |grep 
 ######################################################
 安装LotServer(锐速)加速器
 
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/chimvian/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
 
 强制安装指定内核版本的锐速:
 
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install '${Kernel Version}'
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/chimvian/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install '${Kernel Version}'
 
 卸载LotServer(锐速)加速器
 
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh unstall
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/chimvian/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh unstall
 
 使用说明
 
