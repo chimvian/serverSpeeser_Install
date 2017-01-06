@@ -42,3 +42,27 @@ wget -O apx.lic http://serverspeeder.azurewebsites.net/lic?mac=$(ifconfig |grep 
 
 ```     
 #仅供学习测试使用,严禁用于商业用途.
+
+######################################################
+安装LotServer(锐速)加速器
+
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
+
+强制安装指定内核版本的锐速:
+
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install '${Kernel Version}'
+
+卸载LotServer(锐速)加速器
+
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeser_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh unstall
+
+使用说明
+
+/appex/bin/lotServer.sh start
+#启动
+ 
+/appex/bin/lotServer.sh status
+#状态查询
+ 
+/appex/bin/lotServer.sh stop
+#停止
